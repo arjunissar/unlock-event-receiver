@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="Privacy"
+        android:key="pref_key_privacy_setting">
+        <SwitchPreference
+            android:title="Unlock"
+            android:summary="Toggle Unlock functionality"
+            android:key="pref_key_privacy_unlock"
+            android:defaultValue="true"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>
